@@ -1,0 +1,27 @@
+create a folder "items"
+create algorithm.txt code.sh x.pdf y.docx z.mp4
+
+
+Step 1:
+	Create a folder named "backup" in the parent directory of "items" folder.
+Step 2:
+	In "backup" directory, Create new folders with the same name as the files in "items" directory (without extension).
+	Eg: 
+		../backup/x
+		../backup/y
+		../backup/z
+Step 3:
+	Create sub folders in x,y and z folder with the file extension name.
+	Eg:
+		backup/x/pdf
+		backup/y/docx
+		backup/z/mp4
+Step 4:
+	Move the files (x.pdf y.docx and z.mp4) from "items" folder to their respective corresponding folder with their file extension in backup folder.
+	Eg:
+		backup/x/pdf/x.pdf
+		backup/y/docx/y.docx
+		backup/z/mp4/z.mp4
+	
+	
+	
